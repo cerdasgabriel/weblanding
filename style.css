@@ -1,0 +1,161 @@
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/bggg1g1].jpg);
+  background-size: cover;
+  height: 640px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  margin-top: 100px;
+}
+
+.jumbotron span {
+  color: black;
+}
+
+/* about */
+
+#about {
+  margin-bottom: 100px;
+  margin-top: -50px;
+  background-color: black;
+}
+
+#about p {
+  margin-top: 20px;
+  margin-bottom: 200px;
+  font-family: 'Saira', sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+#about img {
+  height: 300px;
+  margin-top: 100px;
+}
+
+#about span {
+  font-size: 40px;
+}
+
+#about p {
+  font-size: 20px;
+}
+/* akhir about */
+
+/* bcare */
+#bcare {
+  margin-bottom: 100px;
+  margin-top: -50px;
+  background-color: white;
+}
+
+#bcare p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  font-family: 'Saira', sans-serif;
+  font-style: italic;
+  color: darkslategrey;
+}
+
+#bcare img {
+  height: 300px;
+  margin-top: 100px;
+}
+
+#bcare span {
+  font-size: 40px;
+}
+
+#bcare p {
+  font-size: 20px;
+}
+
+/* akhir bcare */
+
+/* jadwal */
+
+#jadwal {
+  background-color: cornsilk;
+  text-align: center;
+}
+
+#jadwal img {
+  height: 250px;
+  margin-bottom: -50px;
+  margin-top: 50px;
+}
+
+#jadwal p {
+  margin-bottom: 150px;
+}
+
+/* akhir jadwal */
+
+/* contact */
+#contact {
+  background-color: slategray;
+  text-align: center;
+}
+
+#contact h5 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact h6 {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+#contact p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+#contact img {
+  height: 130px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+
+/* akhir contact */
+
+/* dekstop version */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .jumbotron {
+    margin-top: -60px;
+    height: 740px;
+  }
+
+  .jumbotron h1 {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  #about {
+    margin-top: -70px;
+  }
+}
+
+/* akhir dekstop version */
